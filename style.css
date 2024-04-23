@@ -32,7 +32,7 @@ main {
 
 header {
   display: flex;
-  background-size: cover;
+  background-position: 1rem -8rem;
   padding: 1.5rem 0 0 1rem;
   background-repeat: no-repeat;
   background-image: url(./assets/bg-main-mobile.png);
@@ -54,6 +54,21 @@ header {
 }
 
 .social-logo {
-  width: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
   stroke: #191826;
+}
+
+.header-text > h1 {
+  width: 20.4rem;
+  color: #191826;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.header-text > p {
+  width: 20.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #191826;
 }
