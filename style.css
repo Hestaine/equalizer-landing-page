@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  gap: 5rem;
+  gap: 11rem;
   width: 100vw;
   display: flex;
   margin: 0 auto;
@@ -51,11 +51,6 @@ header {
   margin-bottom: 1.5rem;
 }
 
-.social-media {
-  display: flex;
-  gap: 1rem;
-}
-
 .social-logo {
   width: 1.5rem;
   height: 1.5rem;
@@ -67,6 +62,7 @@ header {
   color: #191826;
   font-weight: 700;
   font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .header-text > p {
@@ -74,12 +70,14 @@ header {
   font-size: 1rem;
   font-weight: 400;
   color: #191826;
+  line-height: 1.625rem;
 }
 
 .pricing {
   width: 100vw;
   height: 37.5rem;
   position: relative;
+  border-radius: 1rem;
   background-color: #191826;
 }
 
@@ -105,9 +103,10 @@ article {
   z-index: 2;
   width: 100vw;
   display: flex;
-  bottom: -9.7rem;
+  bottom: -20.7rem;
   color: #fcfaf9;
   position: absolute;
+  border-radius: 1rem;
   padding: 2.5rem 1.5rem;
   flex-direction: column;
   background-color: #fa7453;
@@ -124,6 +123,7 @@ article > p {
   font-weight: 400;
   margin-bottom: 1rem;
   font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 article > h2 {
@@ -142,6 +142,7 @@ article > h2 > span {
 .download-buttons {
   gap: 1rem;
   display: flex;
+  margin-top: 1rem;
   flex-direction: column;
 }
 
@@ -152,21 +153,70 @@ button {
 }
 
 .ios {
+  border: none;
+  width: 18rem;
+  height: 3.8rem;
   color: #fcfaf9;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 14px;
+  background-color: #191826;
 }
 
 .android {
+  border: none;
+  width: 18rem;
+  height: 3.8rem;
   color: #191826;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 14px;
+  background-color: #fcfaf9;
 }
 
 .button-ios {
   width: 1.5rem;
   height: 1.5rem;
-  color: #fcfaf9;
+  fill: #fcfaf9;
 }
 
 .button-android {
   width: 1.5rem;
   height: 1.5rem;
+  fill: #191826;
+}
+
+footer {
+  gap: 3rem;
+  display: flex;
+  margin-top: 12rem;
+  flex-direction: column;
+  padding: 1.5rem 0 3rem 1rem;
+}
+
+.copyright {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright > p {
+  width: 18.7rem;
+  font-size: 1rem;
+  font-weight: 400;
   color: #191826;
+  line-height: 1.625rem;
+}
+
+a {
+  display: block;
+  font-weight: 700;
+  color: #191826;
+  text-decoration: none;
+}
+
+.media {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
 }
