@@ -19,9 +19,12 @@ body {
 }
 
 main {
+  gap: 5rem;
   width: 100vw;
+  display: flex;
   margin: 0 auto;
   max-width: 1200px;
+  flex-direction: column;
   background-color: #fff;
 }
 
@@ -32,9 +35,9 @@ main {
 
 header {
   display: flex;
-  background-position: 1rem -8rem;
   padding: 1.5rem 0 0 1rem;
   background-repeat: no-repeat;
+  background-position: 1rem -18rem;
   background-image: url(./assets/bg-main-mobile.png);
 }
 
