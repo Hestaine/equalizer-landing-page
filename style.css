@@ -75,3 +75,98 @@ header {
   font-weight: 400;
   color: #191826;
 }
+
+.pricing {
+  width: 100vw;
+  height: 37.5rem;
+  position: relative;
+  background-color: #191826;
+}
+
+.bg-pattern-2 {
+  top: 0;
+  width: 78vw;
+  left: 2.4rem;
+  height: 27.5rem;
+  position: absolute;
+}
+
+.illustration-device {
+  top: -6rem;
+  left: 4rem;
+  z-index: 1;
+  width: 14rem;
+  height: 28rem;
+  position: absolute;
+}
+
+article {
+  gap: 0.5rem;
+  z-index: 2;
+  width: 100vw;
+  display: flex;
+  bottom: -9.7rem;
+  color: #fcfaf9;
+  position: absolute;
+  padding: 2.5rem 1.5rem;
+  flex-direction: column;
+  background-color: #fa7453;
+}
+
+article > h3 {
+  width: 18rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+article > p {
+  width: 19rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+article > h2 {
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+article > h2 > span {
+  font-weight: 400;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.download-buttons {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ios {
+  color: #fcfaf9;
+}
+
+.android {
+  color: #191826;
+}
+
+.button-ios {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #fcfaf9;
+}
+
+.button-android {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #191826;
+}

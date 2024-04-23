@@ -36,7 +36,11 @@
         />
       </header>
       <section class="pricing">
-        <img src="./assets/illustration-app.png" alt="illustration-devices" />
+        <img
+          src="./assets/illustration-app.png"
+          alt="illustration-devices"
+          class="illustration-device"
+        />
         <img
           src="./assets/bg-pattern-2.svg"
           alt="bg-pattern-2"
@@ -51,8 +55,18 @@
           </p>
           <h2>$4 <span>/month</span></h2>
           <div class="download-buttons">
-            <button class="ios">iOS Download</button>
-            <button class="android">Android Download</button>
+            <button class="ios">
+              <svg class="button-ios">
+                <use xlink:href="/assets/icon-apple.svg#button-logo"></use>
+              </svg>
+              iOS Download
+            </button>
+            <button class="android">
+              <svg class="button-android">
+                <use xlink:href="/assets/icon-android.svg#button-logo"></use>
+              </svg>
+              Android Download
+            </button>
           </div>
         </article>
       </section>
