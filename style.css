@@ -188,19 +188,20 @@ button {
 .button-ios {
   width: 1.5rem;
   height: 1.5rem;
-  fill: #fcfaf9;
+  stroke: #fcfaf9;
 }
 
 .button-android {
   width: 1.5rem;
   height: 1.5rem;
-  fill: #191826;
+  stroke: #191826;
 }
 
 footer {
   gap: 3rem;
   display: flex;
   margin-top: 12rem;
+  align-items: center;
   flex-direction: column;
   padding: 1.5rem 0 3rem 1rem;
 }
@@ -225,6 +226,11 @@ footer {
   font-weight: 400;
   color: #191826;
   line-height: 1.625rem;
+}
+
+.copyright-text {
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -302,11 +308,11 @@ a {
     flex-direction: row;
     padding: 1.5rem 0 5rem 3rem;
   }
-  .copyright > p > a {
-    display: inline-block;
+  .copyright-text > p > a {
+    display: inline;
   }
-  .copyright > P {
-    width: 17rem;
+  .copyright-text > P {
+    width: 23rem;
   }
 }
 
@@ -372,18 +378,16 @@ a {
     line-height: 2.125rem;
   }
   footer {
-    gap: 12rem;
+    gap: 13.5rem;
     margin-top: 8.5rem;
     flex-direction: row;
-    padding: 1.5rem 0 5rem 3rem;
+    padding: 1.5rem 0 5rem 7rem;
   }
   .copyright {
+    gap: 8rem;
     flex-direction: row;
   }
   .copyright > P {
     width: 22.7rem;
-  }
-  a {
-    display: inline;
   }
 }
